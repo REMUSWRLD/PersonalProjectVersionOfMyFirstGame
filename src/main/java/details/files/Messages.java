@@ -65,7 +65,7 @@ static Scanner scanner = new Scanner(System.in);
                                 System.out.println("Character selected: " + selectedPlayer.getName());
                                 boolean fightOrEditSelection = false;
                                 while(!fightOrEditSelection) {
-                                    System.out.println("1. Fight!");
+                                    System.out.println("1. Fight! (CURRENTLY DOES NOT WORK WITH AN OLD CHARACTER WILL FIX ASAP)");
                                     System.out.println("2. Edit your character's name: ");
                                     System.out.println("3. Delete Character: ");
                                     System.out.println("3. Quit: ");

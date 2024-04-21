@@ -112,7 +112,7 @@ public class CharacterCreation {
 
     //IF THE USER INPUTS (n or no) THEN PRINT THE PLAYER ONE WITH NO NAME
         if(willName.equalsIgnoreCase("n") || willName.equalsIgnoreCase("no")) {
-            Account_Name = null;
+            Account_Name = CharacterCreation.playerOne.getCharacterClass();
             System.out.println();
             System.out.println("Player one: " + playerOne.getName());
             System.out.println(playerOne);
